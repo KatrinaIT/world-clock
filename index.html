@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
@@ -11,26 +17,32 @@
   <body>
     <div class="container">
       <h1>World Clock App 🌎</h1>
-			<select>
-				<option value="">Select a city...</option>
-				<option value="">Dublin</option>
-				<option value="">New York</option>
-				<option value="">Tokyo</option>
-			</select>
-			<div class="city">
-				<h2>Los Angeles 🇺🇸</h2>
-				<div class="date">May 23rd, 2024</div>
-				<div class="time">11:50:13 AM</div>
-			</div>
-			<div class="city">
-				<h2>Sydney 🇦🇺</h2>
-				<div class="date">May 23rd, 2024</div>
-				<div class="time">08:50:13 PM</div>
-			</div>
+      <select>
+        <option value="">Select a city...</option>
+        <option value="">Dublin</option>
+        <option value="">New York</option>
+        <option value="">Tokyo</option>
+      </select>
+      <div class="city">
+        <div>
+          <h2>Los Angeles 🇺🇸</h2>
+          <div class="date">May 23rd, 2024</div>
+        </div>
+
+        <div class="time">11:50:13 <small>AM</small></div>
+      </div>
+      <div class="city">
+        <div>
+          <h2>Vancouver 🇨🇦</h2>
+          <div class="date">May 23rd, 2024</div>
+        </div>
+
+        <div class="time">11:50:13 <small>AM</small></div>
+      </div>
     </div>
 
     <footer>
-      Coded by Kate and available on
+      Coded by <strong>Kate 🤓</strong> and available on
       <a href="https://github.com/KatrinaIT/world-clock" target="_blank"
         >Github</a
       >
