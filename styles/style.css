@@ -30,6 +30,12 @@ h2 {
 	font-size: 28px;
 }
 
+a{
+	color: blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .city {
 	display: flex;
 	justify-content: space-between;
