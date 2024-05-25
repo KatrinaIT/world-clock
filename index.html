@@ -17,28 +17,32 @@
   <body>
     <div class="container">
       <h1>World Clock App 🌎</h1>
-      <select>
+
+      <select id="city-selector">
         <option value="">Select a city...</option>
-        <option value="">Dublin</option>
-        <option value="">New York</option>
-        <option value="">Tokyo</option>
+        <option value="Europe/London">London</option>
+        <option value="Australia/Brisbane">Brisbane</option>
+        <option value="Europe/Berlin">Berlin</option>
       </select>
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles 🇺🇸</h2>
-          <div class="date"></div>
-        </div>
 
-        <div class="time"></div>
-      </div>
-      <div class="city" id="tokyo">
-        <div>
-          <h2>Tokyo 🇯🇵</h2>
-          <div class="date"></div>
-        </div>
+			<div id="cities">
+				<div class="city" id="los-angeles">
+					<div>
+						<h2>Los Angeles 🇺🇸</h2>
+						<div class="date"></div>
+					</div>
 
-        <div class="time"></div>
-      </div>
+					<div class="time"></div>
+				</div>
+				<div class="city" id="tokyo">
+					<div>
+						<h2>Tokyo 🇯🇵</h2>
+						<div class="date"></div>
+					</div>
+
+					<div class="time"></div>
+				</div>
+			</div>
     </div>
 
     <footer>
